@@ -1,0 +1,25 @@
+body{
+    background-color: rgb(133, 99, 95);
+}
+
+.cabecera{
+    float:top;
+    width: 98%;
+    height: 60px;
+    margin-top: 20px;
+    margin-right: 20px;
+    border: black solid;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: left;
+ } 
+
+ .logo{
+    font-size: 50px;
+    text-align: left;
+    margin: 5px;
+    width: fit-content;
+ }
+
+ 
