@@ -1,25 +1,14 @@
 body{
-    background-color: rgb(133, 99, 95);
+   background-color: white;
 }
 
 .cabecera{
-    float:top;
-    width: 98%;
-    height: 60px;
-    margin-top: 20px;
-    margin-right: 20px;
-    border: black solid;
-    background-color: white;
-    border-radius: 5px;
-    padding: 10px;
-    justify-content: left;
- } 
+  width: 98%;
+  height: 500px;
+  background-color: black;
+  align-items: center;
+} 
 
- .logo{
-    font-size: 50px;
-    text-align: left;
-    margin: 5px;
-    width: fit-content;
- }
 
- 
+
+
