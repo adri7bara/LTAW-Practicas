@@ -8,6 +8,7 @@ body{
   border:1px solid black;
   background-color: black;
   margin: 5px;
+  border-radius: 8px;
 } 
 
 .logocabecera{
@@ -19,6 +20,7 @@ body{
    width: 99%;
    height: auto;
    margin: 5px;
+   border-radius: 8px;
 }
 
 .contenedormen{
@@ -31,6 +33,7 @@ body{
 .imagenmen{
    width:100%;
    height: 100%;
+   border-radius: 8px;
 }
 
 .contenedorwomen{
@@ -43,9 +46,40 @@ body{
 .imagenwomen{
    width:100%;
    height: 100%;
+   border-radius: 8px;
 
 }
 
+.shopmen{
+   width: 115px;
+   height: auto;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 25%;
+   background-color: white;
+   border-radius: 20px;
+   transform: translate(-50%, -50%);
+   font-size: 18px;
+}
+
+.shopwomen{
+   width: 130px;
+   height: auto;
+   text-align: center;
+   position: absolute;
+   top: 50%;
+   left: 75%;
+   background-color: white;
+   border-radius: 20px;
+   transform: translate(-50%, -50%);
+   font-size: 18px;
+}
+
+	
+.imagenmen:hover {filter: opacity(.75);}
+	
+.imagenwomen:hover {filter: opacity(.75);}
 
 
 
