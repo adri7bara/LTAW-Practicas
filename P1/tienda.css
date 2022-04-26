@@ -11,9 +11,39 @@ body{
 } 
 
 .logocabecera{
-
    margin:auto;
    display:block;
+}
+
+.contenedorprincipal{
+   width: 99%;
+   height: auto;
+   margin: 5px;
+}
+
+.contenedormen{
+   width: 49%;
+   height: 500px;
+   margin: 2px;
+   float: left;
+}
+
+.imagenmen{
+   width:100%;
+   height: 100%;
+}
+
+.contenedorwomen{
+   width: 49%;
+   height: 500px;
+   margin: 2px;
+   float: right;
+}
+
+.imagenwomen{
+   width:100%;
+   height: 100%;
+
 }
 
 
