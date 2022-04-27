@@ -46,6 +46,7 @@ body{
     border:black solid 1px;
     border-radius: 8px;
     text-align: center;
+    font-family: Arial;
 }
 
 .imagenproducto1{
@@ -66,6 +67,7 @@ body{
     border:black solid 1px;
     border-radius: 8px;
     text-align: center;
+    font-family: Arial;
 }
 
 .imagenproducto2{
@@ -84,6 +86,7 @@ body{
     border:black solid 1px;
     border-radius: 8px;
     text-align: center;
+    font-family: Arial;
 }
 
 .imagenproducto3{
@@ -94,6 +97,5 @@ body{
     width: 100%;
     height: 400px;
 }
-
 
 
