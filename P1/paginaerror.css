@@ -1,0 +1,36 @@
+body{
+    background-color: white;
+ }
+
+.cabecera{
+    width: 99%;
+    height: auto;
+    border:1px solid black;
+    background-color: black;
+    margin: 5px;
+    border-radius: 8px;
+  } 
+
+.logocabecera{
+    margin:auto;
+    display:block;
+}
+
+.cabecerahombre{
+    width: 99%;
+    height:auto;
+    border:1px solid black;
+    margin: 5px;
+    margin-top: 20px;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 40px;
+    font-family: Arial;
+    background-image: url("imagenes/swooshnike.png");
+    background-size: 60px 50px;
+}
+
+.giferror{
+    margin:auto;
+    display:block;
+}
