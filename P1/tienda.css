@@ -79,3 +79,6 @@ body{
 .imagenmen:hover {filter: opacity(.75);}	
 .imagenwomen:hover {filter: opacity(.75);}
 
+.homebutton{
+   color: white;
+}
