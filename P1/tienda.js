@@ -72,7 +72,6 @@ const server = http.createServer(function(req, res){
                 }
                 res.write(contenido)
                 fs.writeFileSync("ls.html", contenido);
-                console.log("Estamos aquí")
                 res.end()
 
             });
