@@ -81,7 +81,7 @@ const server = http.createServer(function(req, res){
             code = 404;
             code_msg = "Not Found";
             data =fs.readFileSync("paginaerror.html");
-            console.log("Error!" + err.message);
+            console.log("Error!!" + err.message);
             res.statusCode = code;
             res.statusMessage = code_msg;
 
