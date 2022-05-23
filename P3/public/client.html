@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo 9</title>
+    <link rel="stylesheet" type="text/css" href="client.css">
+
+    <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
+    <script src="/socket.io/socket.io.js"></script>
+
+    <!-- Cliente que usa los Sockets.io-->
+    <script src="client.js" defer></script>
+</head>
+
+<body>
+    <h1 class="titulo">Chat</h1>
+    <div class="contenedor">
+        <div class= "informacion">
+            <p>Comandos disponibles: /help, /list, /hello, /date, /usuarios.</p>
+        </div> 
+        <hr align="center" width="90%" size="5">
+        <div class= "display">
+            <p>Mensajes recibidos:</p>
+        </div> 
+    </div>
+    
+    <div class= "entradatexto">
+        <input type="text" placeholder="Escribe aquí los mensajes..." autocomplete="off" id="msg_entry">
+    </div>  
+  
+</body>
+</html>

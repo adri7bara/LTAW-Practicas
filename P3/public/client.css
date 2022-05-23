@@ -1,0 +1,72 @@
+body{
+	margin: 0;
+    background-color: lightgray;
+	width: 100%;
+}
+
+.titulo{
+    text-align: center;
+    font-family: 'Optima';
+    font-size: 50px;
+    color:black;
+}
+
+.contenedor{
+    border: 1px black solid;
+    border-radius: 10px;
+    width: auto;
+    height: 400px;
+    float: center;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-bottom: 10px;
+    text-align: center;
+    box-sizing: content-box;
+	position: relative;
+    font-family: 'Optima', cursive;
+    background-color: lightblue;
+
+}
+
+.informacion{
+    float: left;
+    width: 95%;
+    margin: 10px;
+}
+
+.display{
+    float: left;
+    width: 95%;
+    margin: 10px;
+    
+}
+
+.entradatexto{
+    border: 1px black solid;
+    border-radius: 10px;
+    width: auto;
+    height: auto;
+    float: center;
+    margin-left: 20%;
+    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+#msg_entry{
+    border: 0px;
+    margin: 10px;
+    width: 350px;
+    margin: 5px;
+    background-color: lightgray;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
