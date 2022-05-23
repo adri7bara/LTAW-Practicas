@@ -1,34 +1,37 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Ejemplo 9</title>
-    <link rel="stylesheet" type="text/css" href="client.css">
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <title>CHAT</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" type="text/css" href="client.css">
 
-    <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
-    <script src="/socket.io/socket.io.js"></script>
+  <link rel="icon" type="image/png" href="https://github.com/EnriqueEstebaranz/2020-2021-LTAW-Practicas/blob/main/P1/imagenes/ICONOCHAT.png?raw=true" />
 
-    <!-- Cliente que usa los Sockets.io-->
-    <script src="client.js" defer></script>
+  <!-- Cargar la biblioteca Socket.IO. Nos la debe entregar el servidor -->
+  <script src="/socket.io/socket.io.js"></script>
+
+  <!-- Cliente que usa los Sockets.io-->
+  <script src="client.js" defer></script>
+  <script src="cltest.js" defer></script>
 </head>
 
 <body>
-    <h1 class="titulo">Chat</h1>
-    <div class="contenedor">
-        <div class= "informacion">
-            <p>Comandos disponibles: /help, /list, /hello, /date, /usuarios.</p>
-        </div> 
-        <hr align="center" width="90%" size="5">
-        <div class= "display">
-            <p>Mensajes recibidos:</p>
-        </div> 
-    </div>
-    
-    <div class= "entradatexto">
-        <input type="text" placeholder="Escribe aquí los mensajes..." autocomplete="off" id="msg_entry">
-    </div>  
-  
+  <p id="titulo">Chat</p>
+  <p class = "chat" id="display"></p>
+  <input type="text" placeholder="Escribe un mensaje aquí..." autocomplete="off" id="msg_entry">
+  <div id= "divusuario">
+    <h3>Introduce el nombre:</h3>
+    Nombre predeterminado: Unknown
+    <h3 id="cambio"></h3>
+    <input type="text" placeholder="Escribe el nombre de usuario..." autocomplete="off" id="nick">
+    Comandos: <br>
+    &nbsp&nbsp&nbsp/help<br>
+    &nbsp&nbsp&nbsp/list<br>
+    &nbsp&nbsp&nbsp/hello<br>
+    &nbsp&nbsp&nbsp/date<br>
+    &nbsp&nbsp&nbsp/usuarios<br>
+  </div>
 </body>
 </html>
