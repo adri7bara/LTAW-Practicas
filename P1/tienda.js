@@ -76,7 +76,6 @@ const server = http.createServer(function(req, res){
 
             });
         }else if (err || file == "paginaerror.html"){
-            //--No encontrado. Mensaje de error.
             code = 404;
             code_msg = "Not Found";
             data =fs.readFileSync("paginaerror.html");
