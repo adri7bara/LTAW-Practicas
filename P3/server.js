@@ -73,10 +73,6 @@ io.on('connect', (socket) => {
       }else if(contenido == "/date"){
         socket.send(Date());
         console.log("/date", Date());
-      }else if(contenido == "/usuarios"){
-        console.log("/usuarios", todo);
-        socket.send("Usuarios que han participado en esta sesión:" + todo);
-
       }else{
         socket.send(msg);
       }
